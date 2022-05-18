@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using StarterAssets;
 
-public class GameHero : MonoBehaviour
+public class Hero : MonoBehaviour
 {
-
     float health = 100;
 
     bool isDead = false;
@@ -17,8 +16,8 @@ public class GameHero : MonoBehaviour
         _thirdPersonController = GetComponent<ThirdPersonController>();
         Die();
     }
-    
-    
+
+
     void AddDamage(float damage)
     {
         health -= damage;
@@ -32,5 +31,4 @@ public class GameHero : MonoBehaviour
 
         _thirdPersonController.enabled = false;
     }
-  
 }
