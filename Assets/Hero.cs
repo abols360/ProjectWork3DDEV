@@ -11,7 +11,7 @@ public class Hero : Character
     private void Start()
     {
         _thirdPersonController = GetComponent<ThirdPersonController>();
-        Die();
+      //  Die();
     }
 
 
