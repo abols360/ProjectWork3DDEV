@@ -6,6 +6,7 @@ using StarterAssets;
 public class Hero : Character
 {
 
+
     ThirdPersonController _thirdPersonController;
 
     private void Start()

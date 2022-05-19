@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class Character : MonoBehaviour
 {
+    public event System.Action OnDied;
 
    protected float health = 100;
 
@@ -11,7 +12,7 @@ public abstract class Character : MonoBehaviour
 
 
 
-    void AddDamage(float damage)
+    public void AddDamage(float damage)
     {
         health -= damage;
         if (health <= 0) Die();
@@ -21,5 +22,8 @@ public abstract class Character : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
+
+        
+        OnDied?.Invoke();
     }
 }

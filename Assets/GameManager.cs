@@ -31,5 +31,20 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    void Start()
+    {
+        Hero.OnDied += OnHeroDied;
+    }
 
+    private void OnHeroDied()
+    {
+        Debug.Log("HERO IS DEAD......RestartGame");
+    //   StartCoroutine(RestartSceneRoutine());
+    }
+  //lauj speli sakt no sakuma pec div sekundem bet build settingos tas vel tas japievieno
+   // IEnumerator RestartSceneRoutine()
+   // {
+   //     yield return new WaitForSeconds(2f);
+   //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+  // }
 }
