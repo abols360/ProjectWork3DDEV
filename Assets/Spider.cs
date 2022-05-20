@@ -15,8 +15,9 @@ public class Spider : Character
 
     private void Start()
     {
-        _animator = GetComponentInChildren<Animator>();
-      //  CurrentState = State.Idle;
+       _animator = GetComponentInChildren<Animator>();
+       //CurrentState = State.Idle;
+      Debug.Log("StartTest");
     }
 
     private void Update()
@@ -32,10 +33,10 @@ public class Spider : Character
             // CurrentState = State.Attacking;
             _animator.SetBool("isAttacking", true);
         }
-        else
-        {
-            _animator.SetBool("isAttacking", false);
-        }
+       else
+       {
+           _animator.SetBool("isAttacking", false);
+       }
     }
  
 }
