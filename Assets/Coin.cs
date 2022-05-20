@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-//https://assetstore.unity.com/packages/2d/environments/free-game-items-131764#description mos arso nomainīt
+//https://assetstore.unity.com/packages/2d/environments/free-game-items-131764#description mos ar so nomainīt
+// padarit spidigus coinus
 public class Coin : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -20,7 +21,7 @@ public class Coin : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other) {
         
-        if (other.name == "Hero"){ //japartaisa, lai nemekle pec string!!!
+        if (other.name == "Hero"){ //japartaisa, lai nemekle pec string!!! unity basics lekcijā
             other.GetComponent<Hero>().points++;
 
 
