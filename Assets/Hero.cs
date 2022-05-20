@@ -6,6 +6,8 @@ using StarterAssets;
 public class Hero : Character
 {
 
+public int points = 0;
+
 
     ThirdPersonController _thirdPersonController;
 
@@ -25,5 +27,9 @@ public class Hero : Character
         base.Die();
 
         if (_thirdPersonController)_thirdPersonController.enabled = false;
+    }
+
+    private void OnGUI() {
+        GUI.Label(new Rect (10, 10, 100, 20), "Score: " + points);
     }
 }

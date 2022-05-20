@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//https://assetstore.unity.com/packages/2d/environments/free-game-items-131764#description mos arso nomainīt
 public class Coin : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -14,10 +16,14 @@ public class Coin : MonoBehaviour
     void Update()
     {
         
+        transform.Rotate(90 * Time.deltaTime, 0, 0);
     }
     private void OnTriggerEnter(Collider other) {
         
-        if (other.name == "Hero"){
+        if (other.name == "Hero"){ //japartaisa, lai nemekle pec string!!!
+            other.GetComponent<Hero>().points++;
+
+
             Destroy(gameObject); //
         }
     }
