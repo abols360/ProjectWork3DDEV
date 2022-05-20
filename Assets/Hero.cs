@@ -13,6 +13,7 @@ public class Hero : Character
     {
         _thirdPersonController = GetComponent<ThirdPersonController>();
       //  Die();
+     //_animator += 
     }
 
 
@@ -23,6 +24,6 @@ public class Hero : Character
 
         base.Die();
 
-        _thirdPersonController.enabled = false;
+        if (_thirdPersonController)_thirdPersonController.enabled = false;
     }
 }
