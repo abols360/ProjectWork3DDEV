@@ -11,6 +11,9 @@ public class Spider : Character
 
     Animator _animator;
 
+    AudioSource _audioSource;
+
+
     // bool isIdle = false;
     // bool isAttacking = false;
 
@@ -42,6 +45,7 @@ public class Spider : Character
     private void Start()
     {
        _animator = GetComponentInChildren<Animator>();
+       _audioSource = GetComponent<AudioSource>();
        CurrentState = State.Idle;
       //Debug.Log("StartTest");
     }
@@ -54,7 +58,10 @@ public class Spider : Character
         if (distanceToHero < closeEnoughDistance)
         {
             GameManager.instance.Hero.AddDamage(Time.deltaTime * damagePerSecond);
+              _audioSource.Play(); //SKAN tikai tad, ja ieiet un iezie no uzbrukuma rādiusa. 
+              Debug.Log("SOUND");
             CurrentState = State.Attacking;
+          
         }
         else
         {
