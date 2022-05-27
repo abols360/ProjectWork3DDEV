@@ -21,7 +21,8 @@ public class Coin : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other) {
         
-        if (other.name == "Hero"){ //japartaisa, lai nemekle pec string!!! unity basics lekcijā
+       // if (other.name == "Hero"){ //japartaisa, lai nemekle pec string!!! unity basics lekcijā
+           if (GameObject.FindObjectOfType<Coin>()){
             other.GetComponent<Hero>().points++;
 
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -39,12 +40,12 @@ public class GameManager : MonoBehaviour
     private void OnHeroDied()
     {
         Debug.Log("HERO IS DEAD......RestartGame");
-    //   StartCoroutine(RestartSceneRoutine());
+       StartCoroutine(RestartSceneRoutine());
     }
-  //lauj speli sakt no sakuma pec div sekundem bet build settingos tas vel tas japievieno
-   // IEnumerator RestartSceneRoutine()
-   // {
-   //     yield return new WaitForSeconds(2f);
-   //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-  // }
+  //lauj speli sakt no sakuma pec trim sekundem bet build settingos tas vel tas japievieno
+   IEnumerator RestartSceneRoutine()
+   {
+       yield return new WaitForSeconds(3f);
+      SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+  }
 }

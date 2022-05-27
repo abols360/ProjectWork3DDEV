@@ -6,4 +6,32 @@ Game IDEA
 Zirnekļi sargā monētas, kuras spēlētājam jāvāc. 
 Ja tiek savāktas 5 monētas spēlētājs ir izgājis līmeni.
 Istabā ir tumšs un sarkanīgas gaismas ar tādu kā miglu. nevar pārredzēt visu telpu.
-Fonā dzirdami trokšņi kaut kādi.  
+Fonā dzirdami trokšņi kaut kādi.
+
+TO_DO_LIST
+
+Unity tasks:
+ZIRNEKLIS
+*Zirneklim nevar iziet cauri
+*zirnelis cenšas noķert fujaku (AI)
+*zirnekļi ir tajās istabās, kurās ir monētas
+* ja player novāc zirnekļa animācija beidzas
+*Skaņa tad kad uzbrūk && ja dzenas pakaļ tad ar 
+
+PLAYER
+*Jāpieliek miršanas animācija
+*skaņa tad kad skrien un staigā
+
+
+COINS
+* Jāpadara spīdīgi
+* Virs viņiem jāuzliek direct light, lai viņi izceltos
+* Viņu tuvumā sāk skanēt melodija kaut kāda
+* Kad savāc coinu tad arī congratulation skaņa
+
+PAŠĀ SPĒLĒ
+* Ekrāns, kur ir teksts, kadi ir spēles noteikumi
+* Izteiksmīgāk attēlo savākto coin skaitu
+* Kad dead vai uzvar, tad parādās informatīvs teksts un nospiežot again var spēlēt atkārtoti
+* Moška kādā sturī rādīt spēles mapi??? 
+ 
