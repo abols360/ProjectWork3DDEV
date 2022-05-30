@@ -505,7 +505,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85240
+  m_Name: pb_Mesh22096
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1868,7 +1868,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85090
+  m_Name: pb_Mesh21906
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2345,7 +2345,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85136
+  m_Name: pb_Mesh21976
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2667,13 +2667,30 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &633690071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1494887797737856336, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
+  m_PrefabInstance: {fileID: 1765271801107085286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &633690074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633690071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ad83824c0e01a44a035294a6d6fd7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &636291938
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85182
+  m_Name: pb_Mesh22022
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7489,7 +7506,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85280
+  m_Name: pb_Mesh22136
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7653,7 +7670,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85124
+  m_Name: pb_Mesh21964
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7875,13 +7892,30 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
+--- !u!1 &1181248037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3492404923305401709, guid: a4d5c6ec0be34ec4f9e5b794e67eaef8, type: 3}
+  m_PrefabInstance: {fileID: 3491276385322490686}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1181248038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181248037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 768b20c41c49ab04e8a5237d1382a35b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1197697940
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85266
+  m_Name: pb_Mesh22122
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8358,7 +8392,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85072
+  m_Name: pb_Mesh21888
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9914,7 +9948,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85158
+  m_Name: pb_Mesh21998
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10455,7 +10489,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85170
+  m_Name: pb_Mesh22010
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10746,7 +10780,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85206
+  m_Name: pb_Mesh22046
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10991,6 +11025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75cb30b1440da3646a15d751717fdcf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
   points: 0
 --- !u!114 &1224736273767633392
 MonoBehaviour:
@@ -11059,6 +11094,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2119775929506462587}
     m_Modifications:
+    - target: {fileID: 1583773427612777542, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
+      propertyPath: LandingAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
+    - target: {fileID: 1583773427612777542, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
+      propertyPath: FootstepAudioClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583773427612777542, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
+      propertyPath: FootstepAudioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
     - target: {fileID: 1583773427612777549, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
       propertyPath: m_Name
       value: Hero
@@ -11107,6 +11154,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5211031948075629709, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 86a575f342eeb534885b78f81861bc61, type: 2}
+    - target: {fileID: 5266138361327164816, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 86a575f342eeb534885b78f81861bc61, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
 --- !u!4 &2119775929506462587
@@ -11413,6 +11468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33682a38794256241a6233b98b5279a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
   closeEnoughDistance: 4
   damagePerSecond: 20
 --- !u!195 &3491276385322490689
@@ -12513,7 +12569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2119775929506462587}
   m_Layer: 0
-  m_Name: NestedParentArmature_Unpack
+  m_Name: PlayerHero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

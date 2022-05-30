@@ -11,9 +11,13 @@ public int points = 0;
 
     ThirdPersonController _thirdPersonController;
 
-    private void Start()
+    Animator _animator;
+
+    protected override void Start()
     {
+        base.Start();
         _thirdPersonController = GetComponent<ThirdPersonController>();
+        _animator = GetComponentInChildren<Animator>();
       //  Die();
      //_animator += 
     }
@@ -24,9 +28,12 @@ public int points = 0;
    protected override void Die()
     {
 
-        base.Die();
+    
+        if(isDead) return;
+        _animator.SetTrigger("Die");
 
         if (_thirdPersonController)_thirdPersonController.enabled = false;
+        base.Die();
     }
 
     private void OnGUI() {
