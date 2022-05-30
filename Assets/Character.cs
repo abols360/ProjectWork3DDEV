@@ -16,7 +16,7 @@ public abstract class Character : MonoBehaviour
     protected virtual void Start() {
         health = maxHealth;
     }
-    public void AddDamage(float damage)
+    public virtual void AddDamage(float damage)
     {
         health -= damage;
         if (health <= 0) Die();
