@@ -7897,7 +7897,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3492404923305401709, guid: a4d5c6ec0be34ec4f9e5b794e67eaef8, type: 3}
   m_PrefabInstance: {fileID: 3491276385322490686}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1181248038
+--- !u!114 &1181248040
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11098,6 +11098,10 @@ PrefabInstance:
       propertyPath: LandingAudioClip
       value: 
       objectReference: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
+    - target: {fileID: 1583773427612777542, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
+      propertyPath: FootstepAudioVolume
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 1583773427612777542, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
       propertyPath: FootstepAudioClips.Array.size
       value: 1
