@@ -9,6 +9,7 @@ public class Spider : Character
     [SerializeField] float closeEnoughDistance = 4f;
 
     [SerializeField] float damagePerSecond = 20f;
+    [SerializeField] Transform sightOrgin;
 
     Animator _animator;
 
@@ -59,19 +60,34 @@ public class Spider : Character
          Vector3 heroPosition = GameManager.instance.Hero.transform.position;
         float distanceToHero = Vector3.Distance(transform.position, heroPosition);
 
-        if (distanceToHero < closeEnoughDistance)
-        {
-            _navMeshAgent.velocity = Vector3.zero;
-            // GameManager.instance.Hero.AddDamage(Time.deltaTime * damagePerSecond);
-              _audioSource.Play(); //SKAN tikai tad, ja ieiet un iezie no uzbrukuma rādiusa. 
-              Debug.Log("SOUND");
-            CurrentState = State.Attacking;
+        switch(CurrentState){
+
+            case State.Idle:
+            if(CanSeePlayer()){
+                CurrentState = State.Following;
+            }
+            break;
+            
+            case State.Following:
+            case State.Attacking:
+        
+            if (distanceToHero < closeEnoughDistance)
+            {
+                _navMeshAgent.velocity = Vector3.zero;
+                // GameManager.instance.Hero.AddDamage(Time.deltaTime * damagePerSecond);
+                _audioSource.Play(); //SKAN tikai tad, ja ieiet un iezie no uzbrukuma rādiusa. 
+                Debug.Log("SOUND");
+                CurrentState = State.Attacking;
           
+            }
+            else
+            {
+                CurrentState = State.Following;
+            }
+            break;
         }
-        else
-        {
-            CurrentState = State.Following;
-        }
+
+       
 
         switch(CurrentState){
 
@@ -102,5 +118,12 @@ public class Spider : Character
               GameManager.instance.Hero.AddDamage(damagePerSecond);
           }  
     }
+
+    bool CanSeePlayer(){
+      //  Physics.Raycast()
+        
+        return false;
+        }
+    
  
 }
