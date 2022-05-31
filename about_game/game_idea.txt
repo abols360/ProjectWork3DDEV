@@ -8,6 +8,14 @@ Ja tiek savāktas 5 monētas spēlētājs ir izgājis līmeni.
 Istabā ir tumšs un sarkanīgas gaismas ar tādu kā miglu. nevar pārredzēt visu telpu.
 Fonā dzirdami trokšņi kaut kādi.
 
+
+
+BUGS!!!
+*kad pie sienas pieiet klāt, tad kamera iziet ārpus sienām un arī cauri playerim
+*Kad player nomirst un spēle sākas pa jaunam iefrīzo kustību anim.
+
+
+
 TO_DO_LIST
 
 Unity tasks:
