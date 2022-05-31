@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Spider : Character
 {
@@ -11,6 +12,7 @@ public class Spider : Character
 
     Animator _animator;
 
+    NavMeshAgent _navMeshAgent;
     AudioSource _audioSource;
 
 
@@ -19,10 +21,10 @@ public class Spider : Character
 
       enum State
     {
-        None,
-        Idle, 
-        Following,
-        Attacking
+        None = 0,
+        Idle = 1, 
+        Following = 2,
+        Attacking = 3
     }
 
     State _state = State.None;
@@ -46,6 +48,7 @@ public class Spider : Character
     {
         base.Start();
        _animator = GetComponentInChildren<Animator>();
+       _navMeshAgent = GetComponent<NavMeshAgent>();
        _audioSource = GetComponent<AudioSource>();
        CurrentState = State.Idle;
       //Debug.Log("StartTest");
@@ -58,6 +61,7 @@ public class Spider : Character
 
         if (distanceToHero < closeEnoughDistance)
         {
+            _navMeshAgent.velocity = Vector3.zero;
             // GameManager.instance.Hero.AddDamage(Time.deltaTime * damagePerSecond);
               _audioSource.Play(); //SKAN tikai tad, ja ieiet un iezie no uzbrukuma rādiusa. 
               Debug.Log("SOUND");
@@ -66,18 +70,25 @@ public class Spider : Character
         }
         else
         {
-            CurrentState = State.Idle;
+            CurrentState = State.Following;
+        }
+
+        switch(CurrentState){
+
+            case State.Following:
+            _navMeshAgent.SetDestination(heroPosition);
+            break;
         }
     }
     void UpdateState() {
         Debug.Log("UpdateState: " + CurrentState);
-        bool pos = CurrentState == State.Attacking;
-        bool isAttacing = _animator.GetBool("isAttacking");
-        if (pos != isAttacing) _animator.SetBool("isAttacking", pos);
+    //     bool pos = CurrentState == State.Attacking;
+    //     bool isAttacing = _animator.GetBool("isAttacking");
+    //     if (pos != isAttacing) _animator.SetBool("isAttacking", pos);
 
-        // int animState = _animator.GetInteger("state");
-        // if ((int)CurrentState != animState) _animator.SetInteger("state", (int)CurrentState);
-    }
+        int animState = _animator.GetInteger("state");
+        if ((int)CurrentState != animState) _animator.SetInteger("state", (int)CurrentState);
+    // }
 
     // void UpdateAttackAnim(bool pos){
     //     bool isAttacking = _animator.GetBool("isAttacking");
@@ -85,7 +96,7 @@ public class Spider : Character
     //         _animator.SetBool("isAttacking", pos);
     //     }
         
-    // }
+     }
     public void Bite(){
           if (CurrentState == State.Attacking){
               GameManager.instance.Hero.AddDamage(damagePerSecond);
