@@ -42,4 +42,5 @@ PAŠĀ SPĒLĒ
 * Izteiksmīgāk attēlo savākto coin skaitu
 * Kad dead vai uzvar, tad parādās informatīvs teksts un nospiežot again var spēlēt atkārtoti
 * Moška kādā sturī rādīt spēles mapi??? 
+* varbūt kādas
  

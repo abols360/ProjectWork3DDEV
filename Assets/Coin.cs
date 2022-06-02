@@ -9,7 +9,7 @@ public class Coin : MonoBehaviour
 {
     // Start is called before the first frame update
     AudioSource _audioSource;
-    public AudioClip coin;
+    //public AudioClip coin;
     
     void Start()
     {
@@ -30,14 +30,18 @@ public class Coin : MonoBehaviour
             other.GetComponent<Hero>().points++;
            // CollectSound();
            //AudioSource.PlayClipAtPoint(coin, transform.position, 0.5f);
-           //_audioSource.PlayOneShot(_audioSource.clip, 5f);
+           _audioSource.PlayOneShot(_audioSource.clip);
            
             
 
-            Destroy(gameObject); //ja ir destroy, tad neskan
+            RemoveCoin(); //ja ir destroy, tad neskan
         }
     }
-
+    private void RemoveCoin(){
+        GetComponent<BoxCollider>().enabled = false;
+        GetComponent<MeshRenderer>().enabled = false;
+        Destroy(gameObject, 4f);
+    }   
     // private void CollectSound()
     // {
     //     _audioSource.Play();
