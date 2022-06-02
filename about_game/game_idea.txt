@@ -11,7 +11,7 @@ Fonā dzirdami trokšņi kaut kādi.
 
 
 BUGS!!!
-*kad pie sienas pieiet klāt, tad kamera iziet ārpus sienām un arī cauri playerim
+
 *Kad player nomirst un spēle sākas pa jaunam iefrīzo kustību anim.
 
 
@@ -20,27 +20,28 @@ TO_DO_LIST
 
 Unity tasks:
 ZIRNEKLIS
-*Zirneklim nevar iziet cauri
-*zirnelis cenšas noķert fujaku (AI)
+
+*zirnelis cenšas noķert fujaku un pēc konkrēta laika zaudē interesi (AI)
 *zirnekļi ir tajās istabās, kurās ir monētas
 * ja player novāc zirnekļa animācija beidzas
-*Skaņa tad kad uzbrūk && ja dzenas pakaļ tad ar 
+*Skaņa, kad dzenas pakaļ  
 
 PLAYER
 *Jāpieliek miršanas animācija
-*skaņa tad kad skrien un staigā
+*kad player is dead neļaut viņam kustēties
 
 
 COINS
 * Jāpadara spīdīgi
 * Virs viņiem jāuzliek direct light, lai viņi izceltos
 * Viņu tuvumā sāk skanēt melodija kaut kāda
-* Kad savāc coinu tad arī congratulation skaņa
 
 PAŠĀ SPĒLĒ
 * Ekrāns, kur ir teksts, kadi ir spēles noteikumi
 * Izteiksmīgāk attēlo savākto coin skaitu
 * Kad dead vai uzvar, tad parādās informatīvs teksts un nospiežot again var spēlēt atkārtoti
-* Moška kādā sturī rādīt spēles mapi??? 
-* varbūt kādas
+* Point ligth gaismas katrā istabā 
+* Player dzīvības daudzumu kaut kur attēlot
+* varbūt kādas mēbeles???
+* varbūt coinus randomize likt, piemērām, lists ar 9 pozīcijām un randomā likt coinus piecās no tām.  ???
  
