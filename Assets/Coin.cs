@@ -8,13 +8,21 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     // Start is called before the first frame update
-    AudioSource _audioSource;
+    // AudioSource _PulseSound;
+    // AudioSource _audioSource;
+    [SerializeField] AudioSource _pulseSound;
+     [SerializeField] AudioSource _collectCoin;
+    
+    
     //public AudioClip coin;
     
     void Start()
     {
+        // _pulseSound = GetComponent<AudioSource>();
+        // _collectCoin = GetComponent<AudioSource>();
+        // //  _PulseSound = gameObject.AddComponent<AudioSource>();
+        // _audioSource = gameObject.AddComponent<AudioSource>();
         
-        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,9 +36,13 @@ public class Coin : MonoBehaviour
        // if (other.name == "Hero"){ //japartaisa, lai nemekle pec string!!! unity basics lekcijā
            if (GameObject.FindObjectOfType<Coin>()){
             other.GetComponent<Hero>().points++;
+           // Destroy(_PulseSound);
            // CollectSound();
            //AudioSource.PlayClipAtPoint(coin, transform.position, 0.5f);
-           _audioSource.PlayOneShot(_audioSource.clip);
+          // 
+           _pulseSound.mute = !_pulseSound.mute;
+           _collectCoin.PlayOneShot(_collectCoin.clip);
+           Debug.Log(_collectCoin);
            
             
 

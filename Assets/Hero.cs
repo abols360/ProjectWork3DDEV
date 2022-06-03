@@ -38,7 +38,10 @@ public int points = 0;
     public override void AddDamage(float damage)
     {
         base.AddDamage(damage);
-        if(health <= 0 ) Die();
+        if(health <= 0 ){
+            Die();
+            
+        } 
         if (!isDead) {
         _animator.SetTrigger("GetDamage");
         }
@@ -46,6 +49,19 @@ public int points = 0;
     }
 
     private void OnGUI() {
-        GUI.Label(new Rect (10, 10, 100, 20), "Score: " + points);
+        // GUI.Label(new Rect (10, 10, 100, 20), "Score: " + points);
+        // GUI.Label(new Rect (50, 0, 100, 50), "health: " + health);
+
+        GUILayout.BeginVertical();
+
+        GUILayout.Label( "Score: " + points);
+        
+        GUILayout.Label(  "health: " + health);
+
+        GUILayout.EndVertical();
+
+
+
+       // GUI.Label(new Rect (50, 0, 100, 50), "health: " + health);
     }
 }
