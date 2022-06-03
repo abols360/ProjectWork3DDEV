@@ -8,6 +8,8 @@ public class Spider : Character
 
     [SerializeField] float closeEnoughDistance = 4f;
 
+    [SerializeField] float farEnoughDistance = 5f;
+
     [SerializeField] float damagePerSecond = 20f;
     [SerializeField] Transform sightOrgin;
     [SerializeField] LayerMask sightMask = ~0;
@@ -16,6 +18,8 @@ public class Spider : Character
 
     NavMeshAgent _navMeshAgent;
     AudioSource _audioSource;
+
+    float attackCount = 0; 
 
  public Vector3 HeroPosition => GameManager.instance.Hero.transform.position + Vector3.up * 0.5f;
     // bool isIdle = false;
@@ -63,26 +67,42 @@ public class Spider : Character
 
         switch(CurrentState){
 
+
+
             case State.Idle:
             if(CanSeePlayer()){
                 CurrentState = State.Following;
+                //Debug.Log(health); 
             }
             break;
             
             case State.Following:
+
             case State.Attacking:
-        
+ 
             if (distanceToHero < closeEnoughDistance)
             {
                 _navMeshAgent.velocity = Vector3.zero;
                 // GameManager.instance.Hero.AddDamage(Time.deltaTime * damagePerSecond);
                
                 CurrentState = State.Attacking;
-          
+              //  Debug.Log(health);
+           if(attackCount >= 5 ){
+                    CurrentState = State.Idle;
+                    Debug.Log("player is dead stop attack");
+                }
             }
             else
             {
                 CurrentState = State.Following;
+            }
+            //  if(distanceToHero > farEnoughDistance){
+            //         CurrentState = State.Idle;
+            //         Debug.Log("Far distance");
+            //     }
+             if(!CanSeePlayer()){
+                CurrentState = State.Idle;
+                //Debug.Log(health); 
             }
             break;
         }
@@ -117,9 +137,22 @@ public class Spider : Character
           if (CurrentState == State.Attacking){
               GameManager.instance.Hero.AddDamage(damagePerSecond);
                _audioSource.Play(); //SKAN tikai tad, ja ieiet un iezie no uzbrukuma rādiusa. 
-                Debug.Log("SOUND");
+                Debug.Log(health);
+                attackCount ++;
           }  
     }
+    // public override void AddDamage(float damage)
+    // {
+    //     base.AddDamage(damage);
+    //    // if(health <= 0 ){
+    //         Debug.Log(health);
+            
+    //    // } 
+    //     // if (!isDead) {
+    //     // _animator.SetTrigger("GetDamage");
+    //     // }
+       
+    // }
 
     bool CanSeePlayer(){
         Vector3 heroPosition = HeroPosition;
@@ -143,6 +176,7 @@ public class Spider : Character
         else
         {
             Debug.DrawRay(sightOrgin.position, dir, Color.red);
+            canSee = false;
         }
         return canSee;
         

@@ -9,6 +9,7 @@ public class Hero : Character
 public int points = 0;
 
 
+    GameHeroController _gameHeroController;
     ThirdPersonController _thirdPersonController;
 
     Animator _animator;
@@ -16,7 +17,7 @@ public int points = 0;
     protected override void Start()
     {
         base.Start();
-        _thirdPersonController = GetComponent<ThirdPersonController>();
+        _gameHeroController = GetComponent<GameHeroController>();
         _animator = GetComponentInChildren<Animator>();
       //  Die();
      //_animator += 
@@ -27,12 +28,13 @@ public int points = 0;
 
    protected override void Die()
     {
-
+       // _thirdPersonController.enabled = false;
     
         if(isDead) return;
         _animator.SetTrigger("Die");
+        
 
-        if (_thirdPersonController)_thirdPersonController.enabled = false;
+        if (_gameHeroController)_gameHeroController.enabled = false;
         base.Die();
     }
     public override void AddDamage(float damage)

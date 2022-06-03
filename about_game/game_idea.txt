@@ -27,21 +27,19 @@ ZIRNEKLIS
 *Skaņa, kad dzenas pakaļ  
 
 PLAYER
-*Jāpieliek miršanas animācija
 *kad player is dead neļaut viņam kustēties
-
+* Player dzīvības daudzumu kaut kur attēlot
 
 COINS
 * Jāpadara spīdīgi
 * Virs viņiem jāuzliek direct light, lai viņi izceltos
-* Viņu tuvumā sāk skanēt melodija kaut kāda
 
 PAŠĀ SPĒLĒ
 * Ekrāns, kur ir teksts, kadi ir spēles noteikumi
 * Izteiksmīgāk attēlo savākto coin skaitu
 * Kad dead vai uzvar, tad parādās informatīvs teksts un nospiežot again var spēlēt atkārtoti
 * Point ligth gaismas katrā istabā 
-* Player dzīvības daudzumu kaut kur attēlot
+
 * varbūt kādas mēbeles???
 * varbūt coinus randomize likt, piemērām, lists ar 9 pozīcijām un randomā likt coinus piecās no tām.  ???
  
