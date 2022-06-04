@@ -13,6 +13,7 @@ Fonā dzirdami trokšņi kaut kādi.
 BUGS!!!
 
 *Kad player nomirst un spēle sākas pa jaunam iefrīzo kustību anim.
+*Spider walk animacija reizēm iegļuko un kad grib apstāties tad aizslīd pāris metrus uz priekšu
 
 
 
@@ -21,13 +22,10 @@ TO_DO_LIST
 Unity tasks:
 ZIRNEKLIS
 
-*zirnelis cenšas noķert fujaku un pēc konkrēta laika zaudē interesi (AI)
 *zirnekļi ir tajās istabās, kurās ir monētas
-* ja player novāc zirnekļa animācija beidzas
 *Skaņa, kad dzenas pakaļ  
 
 PLAYER
-*kad player is dead neļaut viņam kustēties
 * Player dzīvības daudzumu kaut kur attēlot
 
 COINS
@@ -39,7 +37,6 @@ PAŠĀ SPĒLĒ
 * Izteiksmīgāk attēlo savākto coin skaitu
 * Kad dead vai uzvar, tad parādās informatīvs teksts un nospiežot again var spēlēt atkārtoti
 * Point ligth gaismas katrā istabā 
-
 * varbūt kādas mēbeles???
 * varbūt coinus randomize likt, piemērām, lists ar 9 pozīcijām un randomā likt coinus piecās no tām.  ???
  
