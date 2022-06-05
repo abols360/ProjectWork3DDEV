@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-7922857191403736740
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 7ef1a3d8e48955f46aa2d116883b1b03
+  m_EffectName: Attenuation
+  m_MixLevel: 9d91f1116258c344a817a5f4e5804425
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &-5785882932135534034
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -77,6 +91,7 @@ AudioMixerController:
     - 4df86dbcb5bf0964aa9b81840bbaa1b0
     - 140bcddfebd22a04ea4372766b216ca2
     - 233a074d159a3dd4782c0759ccfc944b
+    - 90729afeb7b826c42aee3bd0eb46964c
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -185,6 +200,7 @@ AudioMixerGroupController:
   - {fileID: 6264270204580818699}
   - {fileID: -674564570831550208}
   - {fileID: -5785882932135534034}
+  - {fileID: 8084973975467564759}
   m_Volume: f20496eddf7b43441871b056ef0f6a41
   m_Pitch: a2651e2cebf77644887b3d559414701f
   m_Send: 00000000000000000000000000000000
@@ -276,6 +292,25 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 4020049132314178102}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &8084973975467564759
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpiderWalk
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 90729afeb7b826c42aee3bd0eb46964c
+  m_Children: []
+  m_Volume: 94a6c99b745f1d14aa39fd6f89c71a93
+  m_Pitch: 8b6eb9b92a6655b4087a60b3363e0dc9
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -7922857191403736740}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0

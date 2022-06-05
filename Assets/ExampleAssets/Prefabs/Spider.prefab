@@ -176,11 +176,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   closeEnoughDistance: 3
+  farEnoughDistance: 5
   damagePerSecond: 20
   sightOrgin: {fileID: 1694140185}
   sightMask:
     serializedVersion: 2
     m_Bits: 192
+  _audioSource: {fileID: 0}
 --- !u!195 &3491276385322490689
 NavMeshAgent:
   m_ObjectHideFlags: 0

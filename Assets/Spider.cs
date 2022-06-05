@@ -17,7 +17,9 @@ public class Spider : Character
     Animator _animator;
 
     NavMeshAgent _navMeshAgent;
-    AudioSource _audioSource;
+    [SerializeField] AudioSource _audioSource;
+    [SerializeField] AudioSource _spiderWalk;
+    //AudioSource _spiderStep;
 
     float attackCount = 0; 
 
@@ -55,7 +57,7 @@ public class Spider : Character
         base.Start();
        _animator = GetComponentInChildren<Animator>();
        _navMeshAgent = GetComponent<NavMeshAgent>();
-       _audioSource = GetComponent<AudioSource>();
+      // _audioSource = GetComponent<AudioSource>();
        CurrentState = State.Idle;
       //Debug.Log("StartTest");
     }
@@ -77,6 +79,10 @@ public class Spider : Character
             break;
             
             case State.Following:
+            //Debug.Log("fs");
+            //_spiderWalk.Play();
+            ///break;
+
 
             case State.Attacking:
  
@@ -94,6 +100,7 @@ public class Spider : Character
             }
             else
             {
+              
                 CurrentState = State.Following;
             }
             //  if(distanceToHero > farEnoughDistance){
@@ -118,6 +125,12 @@ public class Spider : Character
     }
     void UpdateState() {
         Debug.Log("UpdateState: " + CurrentState);
+        if (CurrentState == State.Following){
+            _spiderWalk.Play();
+        }else{
+            _spiderWalk.mute = !_spiderWalk.mute;
+        }
+        
     //     bool pos = CurrentState == State.Attacking;
     //     bool isAttacing = _animator.GetBool("isAttacking");
     //     if (pos != isAttacing) _animator.SetBool("isAttacking", pos);
@@ -136,7 +149,7 @@ public class Spider : Character
     public void Bite(){
           if (CurrentState == State.Attacking){
               GameManager.instance.Hero.AddDamage(damagePerSecond);
-               _audioSource.Play(); //SKAN tikai tad, ja ieiet un iezie no uzbrukuma rādiusa. 
+               _audioSource.Play();  
                 Debug.Log(health);
                 attackCount ++;
           }  
@@ -163,6 +176,7 @@ public class Spider : Character
 
         if (Physics.Raycast(sightOrgin.position, dir, out RaycastHit hit, 30f, sightMask))
         {
+             
             if (hit.transform.gameObject.CompareTag("Player")) canSee = true;
 
             hitPos = hit.point;
@@ -172,6 +186,7 @@ public class Spider : Character
                 hit.point,
                 canSee ? Color.green : Color.yellow
             );
+             
         }
         else
         {
