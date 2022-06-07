@@ -12,10 +12,10 @@ Fonā dzirdami trokšņi kaut kādi.
 
 BUGS!!!
 
-*Kad player nomirst un spēle sākas pa jaunam iefrīzo kustību anim.
+
 *Spider walk animacija reizēm iegļuko un kad grib apstāties tad aizslīd pāris metrus uz priekšu
 * spider walking sound have bugs
-
+* ja spider iziet cauri coinam tad ir eror lieki
 
 
 TO_DO_LIST
@@ -30,8 +30,7 @@ PLAYER
 
 
 COINS
-* Jāpadara spīdīgi
-* Virs viņiem jāuzliek direct light, lai viņi izceltos
+
 
 PAŠĀ SPĒLĒ
 * Ekrāns, kur ir teksts, kadi ir spēles noteikumi

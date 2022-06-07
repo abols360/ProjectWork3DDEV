@@ -8,7 +8,7 @@ public class Spider : Character
 
     [SerializeField] float closeEnoughDistance = 4f;
 
-    [SerializeField] float farEnoughDistance = 5f;
+    //[SerializeField] float farEnoughDistance = 5f;
 
     [SerializeField] float damagePerSecond = 20f;
     [SerializeField] Transform sightOrgin;

@@ -32,9 +32,11 @@ public class Coin : MonoBehaviour
         transform.Rotate(90 * Time.deltaTime, 0, 0);
     }
     private void OnTriggerEnter(Collider other) {
+        if(other.name == "Hero"){// jāsalabo
+
         
-       // if (other.name == "Hero"){ //japartaisa, lai nemekle pec string!!! unity basics lekcijā
-           if (GameObject.FindObjectOfType<Coin>()){
+       // if (other.name == GameObject.FindObjectOfType<Hero>()){ //japartaisa, lai nemekle pec string!!! unity basics lekcijā
+           //if (GameObject.FindObjectOfType<>()){
             other.GetComponent<Hero>().points++;
            // Destroy(_PulseSound);
            // CollectSound();
@@ -42,16 +44,19 @@ public class Coin : MonoBehaviour
           // 
            _pulseSound.mute = !_pulseSound.mute;
            _collectCoin.PlayOneShot(_collectCoin.clip);
+           
            Debug.Log(_collectCoin);
            
             
 
-            RemoveCoin(); //ja ir destroy, tad neskan
+            RemoveCoin(); 
         }
+      //  }
     }
     private void RemoveCoin(){
         GetComponent<BoxCollider>().enabled = false;
         GetComponent<MeshRenderer>().enabled = false;
+        //GetComponent<CoinL>()
         Destroy(gameObject, 4f);
     }   
     // private void CollectSound()
