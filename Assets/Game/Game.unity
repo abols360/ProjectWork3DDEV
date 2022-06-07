@@ -18752,6 +18752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider3
       objectReference: {fileID: 0}
+    - target: {fileID: 1907827753509606849, guid: a4d5c6ec0be34ec4f9e5b794e67eaef8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3491276385322490688, guid: a4d5c6ec0be34ec4f9e5b794e67eaef8, type: 3}
       propertyPath: _spiderWalk
       value: 
