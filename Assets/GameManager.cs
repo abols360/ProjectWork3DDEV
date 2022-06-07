@@ -1,13 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
+
+public static class GameCursor{
+        public static void EnableCur(bool flag){
+
+            Cursor.visible = flag;
+            Cursor.lockState = flag ? CursorLockMode.None : CursorLockMode.Confined;
+        }
+    }
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    [SerializeField] internal InputActionAsset actions;
     Hero _hero;
+
+    bool isChangingScene = false;
+
+    
+    
+
 
     public Hero Hero
     {
@@ -35,8 +51,26 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Hero.OnDied += OnHeroDied;
+        GameCursor.EnableCur(false);
     }
 
+    private void Update() {
+        if(Keyboard.current.escapeKey.wasPressedThisFrame){
+            LoadMainMenu();
+
+        }
+    }
+
+    void LoadMainMenu(){
+        
+        if(isChangingScene)return;
+        
+        isChangingScene = true;
+        Scenes.LoadScene(Scenes.Menu);
+        //Scenes.Loa
+
+
+    }
     private void OnHeroDied()
     {
         Debug.Log("HERO IS DEAD......RestartGame");
@@ -48,4 +82,8 @@ public class GameManager : MonoBehaviour
        yield return new WaitForSeconds(8f);
       SceneManager.LoadScene(SceneManager.GetActiveScene().name);
   }
+
+
+    
+
 }
