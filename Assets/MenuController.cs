@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 
         public const string Menu = "Menu";
         public const string Game = "Game";
+        public const string Rules = "Rules";
 
 
 
@@ -30,6 +31,7 @@ public class MenuController : MonoBehaviour
     }
     public void GameRules(){
         Debug.Log("Rules");
+        Scenes.LoadScene(Scenes.Rules);
     }
 
     public void QuitGame(){

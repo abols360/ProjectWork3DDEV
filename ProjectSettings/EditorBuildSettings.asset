@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Game.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Game/Rules.unity
+    guid: 8c0ba046ac14aa6468a8abe60fd8810f
   m_configObjects: {}
