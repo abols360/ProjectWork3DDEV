@@ -1174,7 +1174,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: 7daf7d583f9dee44bbb0b7253f724d78, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 6a99bd2fbb1ef9e409ba68bdb3ad9b2b, type: 2}
+      objectReference: {fileID: 9100000, guid: fcf18b6853416f04aad7ca864c942793, type: 2}
     - target: {fileID: 5869553146772215559, guid: 7daf7d583f9dee44bbb0b7253f724d78, type: 3}
       propertyPath: m_Layer
       value: 6

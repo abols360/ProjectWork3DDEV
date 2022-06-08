@@ -53,6 +53,11 @@ public class Coin : MonoBehaviour
             
 
             RemoveCoin(); 
+
+            if (other.GetComponent<Hero>().points == 5 ){
+                Debug.Log("You win!!!!!");
+                Scenes.LoadScene(Scenes.YouWin);
+            }
         }
       //  }
     }
