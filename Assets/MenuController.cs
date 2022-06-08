@@ -9,6 +9,8 @@ using UnityEngine.SceneManagement;
         public const string Menu = "Menu";
         public const string Game = "Game";
         public const string Rules = "Rules";
+        public const string YouLost = "YouLost";
+      
 
 
 
@@ -33,9 +35,20 @@ public class MenuController : MonoBehaviour
         Debug.Log("Rules");
         Scenes.LoadScene(Scenes.Rules);
     }
+      public void GameMenu(){
+        Debug.Log("Menu");
+        Scenes.LoadScene(Scenes.Menu);
+    }
 
     public void QuitGame(){
         Debug.Log("Quit");
         Application.Quit();
     }
+     public void LostGame(){
+        Debug.Log("YouLost");
+        Scenes.LoadScene(Scenes.YouLost);
+    }
+
+
+    
 }

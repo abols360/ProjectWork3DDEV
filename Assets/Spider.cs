@@ -124,7 +124,7 @@ public class Spider : Character
         }
     }
     void UpdateState() {
-        Debug.Log("UpdateState: " + CurrentState);
+       // Debug.Log("UpdateState: " + CurrentState);
         if (CurrentState == State.Following){
             _spiderWalk.Play();
         }else{

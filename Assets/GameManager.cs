@@ -14,6 +14,7 @@ public static class GameCursor{
     }
 public class GameManager : MonoBehaviour
 {
+    public GameOverScreen GameOverScreen;
     public static GameManager instance;
 
     [SerializeField] internal InputActionAsset actions;
@@ -22,7 +23,9 @@ public class GameManager : MonoBehaviour
     bool isChangingScene = false;
 
     
-    
+    public void GameOver(){
+      //  GameOverScreen.Setup(points);
+    }
 
 
     public Hero Hero
@@ -80,7 +83,8 @@ public class GameManager : MonoBehaviour
    IEnumerator RestartSceneRoutine()
    {
        yield return new WaitForSeconds(3f);
-      SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+      Scenes.LoadScene(Scenes.YouLost);
+      //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
   }
 
 

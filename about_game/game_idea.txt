@@ -15,7 +15,6 @@ BUGS!!!
 
 *Spider walk animacija reizēm iegļuko un kad grib apstāties tad aizslīd pāris metrus uz priekšu
 * spider walking sound have bugs
-* ja spider iziet cauri coinam tad ir eror lieki
 
 
 TO_DO_LIST
@@ -23,7 +22,7 @@ TO_DO_LIST
 Unity tasks:
 ZIRNEKLIS
 
-*zirnekļi ir tajās istabās, kurās ir monētas
+*zirnekļi ir tajās istabās, kurās ir monētas???
 
 
 PLAYER
@@ -33,7 +32,6 @@ COINS
 
 
 PAŠĀ SPĒLĒ
-* Ekrāns, kur ir teksts, kadi ir spēles noteikumi
 * Izteiksmīgāk attēlo savākto coin skaitu
 * Kad dead vai uzvar, tad parādās informatīvs teksts un nospiežot again var spēlēt atkārtoti
 * Point ligth gaismas katrā istabā 
