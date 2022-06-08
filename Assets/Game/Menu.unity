@@ -214,15 +214,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7daf7d583f9dee44bbb0b7253f724d78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.4
+      value: 3.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7daf7d583f9dee44bbb0b7253f724d78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7daf7d583f9dee44bbb0b7253f724d78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.5
+      value: -2.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7daf7d583f9dee44bbb0b7253f724d78, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1129,7 +1129,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.06634923, g: 0.25530896, b: 0.6698113, a: 0}
+  m_BackGroundColor: {r: 0.36078432, g: 0.048282307, b: 0.14502658, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1406,7 +1406,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 50, y: 0}
+  m_AnchoredPosition: {x: 50, y: -20}
   m_SizeDelta: {x: 1920, y: 200}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2053008949
@@ -1431,7 +1431,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c31a6850b2a592649bc070eac19b6e85, type: 3}
-    m_FontSize: 84
+    m_FontSize: 108
     m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 0
@@ -1442,7 +1442,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Spider  attack
+  m_Text: Black  widow
 --- !u!222 &2053008950
 CanvasRenderer:
   m_ObjectHideFlags: 0

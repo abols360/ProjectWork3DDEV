@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
   //lauj speli sakt no sakuma pec trim sekundem bet build settingos tas vel tas japievieno
    IEnumerator RestartSceneRoutine()
    {
-       yield return new WaitForSeconds(8f);
+       yield return new WaitForSeconds(3f);
       SceneManager.LoadScene(SceneManager.GetActiveScene().name);
   }
 
