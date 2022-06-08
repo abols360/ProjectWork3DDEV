@@ -32,11 +32,14 @@ public class Coin : MonoBehaviour
         transform.Rotate(90 * Time.deltaTime, 0, 0);
     }
     private void OnTriggerEnter(Collider other) {
-        if(other.name == "Hero"){// jāsalabo
+       // if(other.transform.tag == "Hero"){// jāsalabo
+        // if (other.name == other.FindObjectWithTag("Hero")){
+
+        // }
 
         
        // if (other.name == GameObject.FindObjectOfType<Hero>()){ //japartaisa, lai nemekle pec string!!! unity basics lekcijā
-           //if (GameObject.FindObjectOfType<>()){
+           if (GameObject.FindObjectOfType<Coin>()){
             other.GetComponent<Hero>().points++;
            // Destroy(_PulseSound);
            // CollectSound();

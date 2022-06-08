@@ -164,7 +164,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &39602235
 GameObject:
@@ -391,7 +391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 57564554}
   - component: {fileID: 57564555}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CoinPulse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -601,7 +601,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &81450258
 GameObject:
@@ -718,7 +718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 104177675}
   - component: {fileID: 104177676}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CoinLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -811,7 +811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 122965032}
   - component: {fileID: 122965033}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CoinPulse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1102,7 +1102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 146674111}
   - component: {fileID: 146674112}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CoinLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1198,7 +1198,7 @@ GameObject:
   - component: {fileID: 164649315}
   - component: {fileID: 164649314}
   - component: {fileID: 164649313}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Coin1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1824,7 +1824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 222629525}
   - component: {fileID: 222629526}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CoinPulse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2115,7 +2115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 241750385}
   - component: {fileID: 241750386}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CoinLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2208,7 +2208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 248213060}
   - component: {fileID: 248213061}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: 'CollectCoin '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4268,7 +4268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 323474639}
   - component: {fileID: 323474640}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CoinPulse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4458,7 +4458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 362212261}
   - component: {fileID: 362212262}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CollectCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4585,7 +4585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 373840981}
   - component: {fileID: 373840982}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CoinLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4695,13 +4695,12 @@ Transform:
   m_LocalPosition: {x: 13.494423, y: -7.049758, z: 0.8797178}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1383785749}
   - {fileID: 989728987}
   - {fileID: 1290287390}
   - {fileID: 753770665}
   - {fileID: 1300443718}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &457423256
 GameObject:
@@ -4962,7 +4961,7 @@ GameObject:
   - component: {fileID: 565201678}
   - component: {fileID: 565201677}
   - component: {fileID: 565201676}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Coin3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5072,7 +5071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 578986656}
   - component: {fileID: 578986657}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CoinPulse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5594,7 +5593,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &659753568
 GameObject:
@@ -5721,7 +5720,7 @@ Transform:
   - {fileID: 170171481}
   - {fileID: 1458322689}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!43 &688995122
 Mesh:
@@ -5979,7 +5978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 734580062}
   - component: {fileID: 734580063}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CoinPulse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6133,7 +6132,7 @@ Transform:
   - {fileID: 294114018}
   - {fileID: 1576805245}
   m_Father: {fileID: 405584071}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &769078039
 GameObject:
@@ -6149,7 +6148,7 @@ GameObject:
   - component: {fileID: 769078041}
   - component: {fileID: 769078040}
   - component: {fileID: 769078045}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Coin3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6567,7 +6566,7 @@ GameObject:
   - component: {fileID: 837838064}
   - component: {fileID: 837838063}
   - component: {fileID: 837838068}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Coin4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8687,7 +8686,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &941333789
 GameObject:
@@ -9083,7 +9082,7 @@ Transform:
   m_Children:
   - {fileID: 1024339875}
   m_Father: {fileID: 405584071}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1003642357
 GameObject:
@@ -9317,7 +9316,7 @@ GameObject:
   - component: {fileID: 1008644866}
   - component: {fileID: 1008644865}
   - component: {fileID: 1008644864}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Coin4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11595,7 +11594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1071769587}
   - component: {fileID: 1071769588}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CollectCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11913,7 +11912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1156709683}
   - component: {fileID: 1156709684}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CollectCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12737,7 +12736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1215493650}
   - component: {fileID: 1215493651}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CollectCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12864,7 +12863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1223519728}
   - component: {fileID: 1223519729}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CollectCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13469,7 +13468,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 405584071}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1297000553
 GameObject:
@@ -13481,7 +13480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1297000554}
   - component: {fileID: 1297000555}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: 'CollectCoin '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13618,7 +13617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1373114841}
   - component: {fileID: 1373114842}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CoinPulse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13744,7 +13743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1383785749}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13759,7 +13758,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383785748}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.682446, y: 5.3988585, z: -5.324138}
+  m_LocalPosition: {x: -20.188023, y: -1.6508994, z: -4.4444203}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 164649317}
@@ -13771,8 +13770,8 @@ Transform:
   - {fileID: 769078044}
   - {fileID: 837838067}
   - {fileID: 1553594462}
-  m_Father: {fileID: 405584071}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1400467646
 GameObject:
@@ -13787,7 +13786,7 @@ GameObject:
   - component: {fileID: 1400467650}
   - component: {fileID: 1400467649}
   - component: {fileID: 1400467648}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Coin5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13897,7 +13896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1400702355}
   - component: {fileID: 1400702356}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CoinPulse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14278,7 +14277,7 @@ GameObject:
   - component: {fileID: 1473539174}
   - component: {fileID: 1473539173}
   - component: {fileID: 1473539178}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Coin2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15102,7 +15101,7 @@ GameObject:
   - component: {fileID: 1553594459}
   - component: {fileID: 1553594458}
   - component: {fileID: 1553594463}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Coin5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16166,7 +16165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1693841023}
   - component: {fileID: 1693841024}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CollectCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17571,7 +17570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1827609235}
   - component: {fileID: 1827609236}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CollectCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17701,7 +17700,7 @@ GameObject:
   - component: {fileID: 1864983974}
   - component: {fileID: 1864983973}
   - component: {fileID: 1864983972}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Coin2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18330,7 +18329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1942984672}
   - component: {fileID: 1942984673}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CoinPulse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18610,7 +18609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993874074}
   - component: {fileID: 1993874075}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: CoinLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18967,7 +18966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2135724508}
   - component: {fileID: 2135724509}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CoinLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
