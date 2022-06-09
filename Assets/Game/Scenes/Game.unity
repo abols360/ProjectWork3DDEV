@@ -14,13 +14,13 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.23584908, g: 0.089998364, b: 0.08121218, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.05
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.2924528, g: 0.29107332, b: 0.29107332, a: 1}
+  m_AmbientSkyColor: {r: 0.1981132, g: 0.19530971, b: 0.19530971, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -344,13 +344,13 @@ GameObject:
   m_Component:
   - component: {fileID: 49563922}
   - component: {fileID: 49563923}
-  m_Layer: 0
-  m_Name: SpotLight
+  m_Layer: 10
+  m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &49563922
 Transform:
   m_ObjectHideFlags: 0
@@ -1013,7 +1013,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh154528
+  m_Name: pb_Mesh74470
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1417,7 +1417,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh154762
+  m_Name: pb_Mesh74714
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2026,7 +2026,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh155076
+  m_Name: pb_Mesh75028
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3661,7 +3661,7 @@ GameObject:
   - component: {fileID: 284763360}
   - component: {fileID: 284763362}
   - component: {fileID: 284763361}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LightBulbs5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3743,7 +3743,7 @@ GameObject:
   - component: {fileID: 294114018}
   - component: {fileID: 294114020}
   - component: {fileID: 294114019}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LightBulbs8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3866,7 +3866,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh154568
+  m_Name: pb_Mesh74510
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4869,7 +4869,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh154982
+  m_Name: pb_Mesh74934
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5577,13 +5577,13 @@ GameObject:
   m_Component:
   - component: {fileID: 614029359}
   - component: {fileID: 614029360}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SpotLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &614029359
 Transform:
   m_ObjectHideFlags: 0
@@ -5763,13 +5763,13 @@ GameObject:
   m_Component:
   - component: {fileID: 628510334}
   - component: {fileID: 628510335}
-  m_Layer: 0
-  m_Name: SpotLight
+  m_Layer: 10
+  m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &628510334
 Transform:
   m_ObjectHideFlags: 0
@@ -5985,13 +5985,13 @@ GameObject:
   m_Component:
   - component: {fileID: 659753569}
   - component: {fileID: 659753570}
-  m_Layer: 0
-  m_Name: SpotLight
+  m_Layer: 10
+  m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &659753569
 Transform:
   m_ObjectHideFlags: 0
@@ -6108,7 +6108,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh154774
+  m_Name: pb_Mesh74726
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6277,7 +6277,7 @@ GameObject:
   - component: {fileID: 691421462}
   - component: {fileID: 691421464}
   - component: {fileID: 691421463}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LightBulbs7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6484,7 +6484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 753770665}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lightning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6861,7 +6861,7 @@ GameObject:
   - component: {fileID: 837090484}
   - component: {fileID: 837090486}
   - component: {fileID: 837090485}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LightBulbs3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9475,7 +9475,7 @@ GameObject:
   - component: {fileID: 1003642358}
   - component: {fileID: 1003642360}
   - component: {fileID: 1003642359}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LightBulbs6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12825,13 +12825,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1188937169}
   - component: {fileID: 1188937170}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SpotLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1188937169
 Transform:
   m_ObjectHideFlags: 0
@@ -12914,7 +12914,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh155148
+  m_Name: pb_Mesh75100
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13745,13 +13745,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1283492434}
   - component: {fileID: 1283492435}
-  m_Layer: 0
-  m_Name: SpotLight
+  m_Layer: 10
+  m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1283492434
 Transform:
   m_ObjectHideFlags: 0
@@ -14842,13 +14842,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1438542292}
   - component: {fileID: 1438542293}
-  m_Layer: 0
-  m_Name: SpotLight
+  m_Layer: 10
+  m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1438542292
 Transform:
   m_ObjectHideFlags: 0
@@ -15296,13 +15296,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1477458116}
   - component: {fileID: 1477458117}
-  m_Layer: 0
-  m_Name: SpotLight
+  m_Layer: 10
+  m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1477458116
 Transform:
   m_ObjectHideFlags: 0
@@ -15737,7 +15737,7 @@ GameObject:
   - component: {fileID: 1524410758}
   - component: {fileID: 1524410760}
   - component: {fileID: 1524410759}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LightBulbs4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16174,7 +16174,7 @@ GameObject:
   - component: {fileID: 1576805245}
   - component: {fileID: 1576805247}
   - component: {fileID: 1576805246}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LightBulbs9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16331,7 +16331,7 @@ GameObject:
   - component: {fileID: 1614631419}
   - component: {fileID: 1614631421}
   - component: {fileID: 1614631420}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LightBulbs2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17102,7 +17102,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh154932
+  m_Name: pb_Mesh74884
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17344,7 +17344,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh154804
+  m_Name: pb_Mesh74756
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17601,7 +17601,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh154850
+  m_Name: pb_Mesh74802
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18209,13 +18209,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1793828423}
   - component: {fileID: 1793828424}
-  m_Layer: 0
-  m_Name: SpotLight
+  m_Layer: 10
+  m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1793828423
 Transform:
   m_ObjectHideFlags: 0
@@ -18303,7 +18303,7 @@ GameObject:
   - component: {fileID: 1807715795}
   - component: {fileID: 1807715797}
   - component: {fileID: 1807715796}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LightBulbs1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18684,7 +18684,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh155186
+  m_Name: pb_Mesh75138
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18848,7 +18848,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh154838
+  m_Name: pb_Mesh74790
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19321,7 +19321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1907827753509606849, guid: a4d5c6ec0be34ec4f9e5b794e67eaef8, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3491276385322490688, guid: a4d5c6ec0be34ec4f9e5b794e67eaef8, type: 3}
       propertyPath: _spiderWalk
