@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class Spider : Character
 {
 
-    [SerializeField] float closeEnoughDistance = 4f;
+    [SerializeField] float closeEnoughDistance = 2f;
 
     //[SerializeField] float farEnoughDistance = 5f;
 

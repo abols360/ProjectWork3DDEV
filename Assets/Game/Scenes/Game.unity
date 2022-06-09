@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.05
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.1981132, g: 0.19530971, b: 0.19530971, a: 1}
+  m_AmbientSkyColor: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 2bfa15bfa4b05324184040f436a96c95, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 477cc4148fad3449482a3bc3178594e2, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -344,12 +344,12 @@ GameObject:
   m_Component:
   - component: {fileID: 49563922}
   - component: {fileID: 49563923}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &49563922
 Transform:
@@ -416,13 +416,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.5904e-41, y: 0, z: 0, w: 7.17e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -864,7 +864,7 @@ Light:
   m_Cookie: {fileID: 2800000, guid: c5ae14b135040d94a98c48e5f29ecb8c, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1013,7 +1013,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74470
+  m_Name: pb_Mesh22028
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1417,7 +1417,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74714
+  m_Name: pb_Mesh22272
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2026,7 +2026,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75028
+  m_Name: pb_Mesh22586
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3661,7 +3661,7 @@ GameObject:
   - component: {fileID: 284763360}
   - component: {fileID: 284763362}
   - component: {fileID: 284763361}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: LightBulbs5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3743,7 +3743,7 @@ GameObject:
   - component: {fileID: 294114018}
   - component: {fileID: 294114020}
   - component: {fileID: 294114019}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: LightBulbs8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3866,7 +3866,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74510
+  m_Name: pb_Mesh22068
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4731,7 +4731,7 @@ Light:
   m_Cookie: {fileID: 2800000, guid: c5ae14b135040d94a98c48e5f29ecb8c, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -4869,7 +4869,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74934
+  m_Name: pb_Mesh22492
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4924,9 +4924,9 @@ Mesh:
       format: 0
       dimension: 2
     - stream: 0
-      offset: 0
+      offset: 48
       format: 0
-      dimension: 0
+      dimension: 2
     - stream: 0
       offset: 0
       format: 0
@@ -4959,8 +4959,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 1152
-    _typelessdata: 00000000000000000000000000000000000000000000803f000080bf0000000000000000000080bf000000000000000000004842000000000000000000000000000000000000803f000080bf0000000000000000000080bf000048c200000000000000000000803e0000000000000000000000000000803f000080bf0000000000000000000080bf000000000000803e000048420000803e0000000000000000000000000000803f000080bf0000000000000000000080bf000048c20000803e0000484200000000000000000000803f000000000000000000000000000000000000803f000080bf00000000000000000000484200000000000070c20000803f000000000000000000000000000000000000803f000080bf000070c200000000000048420000803e000000000000803f000000000000000000000000000000000000803f000080bf000000000000803e000048420000803e000070c20000803f000000000000000000000000000000000000803f000080bf000070c20000803e0000484200000000000070c20000000000000000000080bf0000803f0000000000000000000080bf00004842000000000000000000000000000070c20000000000000000000080bf0000803f0000000000000000000080bf0000000000000000000048420000803e000070c20000000000000000000080bf0000803f0000000000000000000080bf000048420000803e000000000000803e000070c20000000000000000000080bf0000803f0000000000000000000080bf000000000000803e0000000000000000000070c2000080bf00000000000000000000000000000000000080bf000080bf0000704200000000000000000000000000000000000080bf00000000000000000000000000000000000080bf000080bf0000000000000000000000000000803e000070c2000080bf00000000000000000000000000000000000080bf000080bf000070420000803e000000000000803e00000000000080bf00000000000000000000000000000000000080bf000080bf000000000000803e000000000000803e00000000000000000000803f000000000000803f0000000000000000000080bf0000000000000000000048420000803e00000000000000000000803f000000000000803f0000000000000000000080bf0000484200000000000000000000803e000070c2000000000000803f000000000000803f0000000000000000000080bf00000000000070c2000048420000803e000070c2000000000000803f000000000000803f0000000000000000000080bf00004842000070c20000000000000000000070c200000000000080bf00000000000080bf0000000000000000000080bf00000000000070c20000484200000000000070c200000000000080bf00000000000080bf0000000000000000000080bf000048c2000070c200000000000000000000000000000000000080bf00000000000080bf0000000000000000000080bf000000000000000000004842000000000000000000000000000080bf00000000000080bf0000000000000000000080bf000048c200000000
+    m_DataSize: 1344
+    _typelessdata: 00000000000000000000000000000000000000000000803f000080bf0000000000000000000080bf0000000000000000320c0d3f0bd7a33c00004842000000000000000000000000000000000000803f000080bf0000000000000000000080bf000048c200000000ce0d7a3f0bd7a33c000000000000803e0000000000000000000000000000803f000080bf0000000000000000000080bf000000000000803e370c0d3fee47b53c000048420000803e0000000000000000000000000000803f000080bf0000000000000000000080bf000048c20000803ed30d7a3ff047b53c0000484200000000000000000000803f000000000000000000000000000000000000803f000080bf00000000000000000bd7a33c0bd7a33c0000484200000000000070c20000803f000000000000000000000000000000000000803f000080bf000070c20000000073ed073f0bd7a33c000048420000803e000000000000803f000000000000000000000000000000000000803f000080bf000000000000803edcd7a33cee47b53c000048420000803e000070c20000803f000000000000000000000000000000000000803f000080bf000070c20000803e79ed073ff047b53c0000484200000000000070c20000000000000000000080bf0000803f0000000000000000000080bf0000484200000000320c0d3f7d8f2c3d0000000000000000000070c20000000000000000000080bf0000803f0000000000000000000080bf0000000000000000ce0d7a3f7d8f2c3d000048420000803e000070c20000000000000000000080bf0000803f0000000000000000000080bf000048420000803e370c0d3fef47353d000000000000803e000070c20000000000000000000080bf0000803f0000000000000000000080bf000000000000803ed30d7a3ff047353d0000000000000000000070c2000080bf00000000000000000000000000000000000080bf000080bf00007042000000000bd7a33c7d8f2c3d000000000000000000000000000080bf00000000000000000000000000000000000080bf000080bf000000000000000073ed073f7d8f2c3d000000000000803e000070c2000080bf00000000000000000000000000000000000080bf000080bf000070420000803edcd7a33cef47353d000000000000803e00000000000080bf00000000000000000000000000000000000080bf000080bf000000000000803e79ed073ff047353d000000000000803e00000000000000000000803f000000000000803f0000000000000000000080bf00000000000000006fed073f8993023f000048420000803e00000000000000000000803f000000000000803f0000000000000000000080bf00004842000000006fed073f22956f3f000000000000803e000070c2000000000000803f000000000000803f0000000000000000000080bf00000000000070c20bd7a33c8993023f000048420000803e000070c2000000000000803f000000000000803f0000000000000000000080bf00004842000070c20bd7a33c22956f3f0000000000000000000070c200000000000080bf00000000000080bf0000000000000000000080bf00000000000070c26fed073fbb99833d0000484200000000000070c200000000000080bf00000000000080bf0000000000000000000080bf000048c2000070c270ed073fa1e9fa3e00000000000000000000000000000000000080bf00000000000080bf0000000000000000000080bf00000000000000000bd7a33cbb99833d00004842000000000000000000000000000080bf00000000000080bf0000000000000000000080bf000048c2000000001ad7a33ca1e9fa3e
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -5577,12 +5577,12 @@ GameObject:
   m_Component:
   - component: {fileID: 614029359}
   - component: {fileID: 614029360}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &614029359
 Transform:
@@ -5649,13 +5649,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 3e-45, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -5763,12 +5763,12 @@ GameObject:
   m_Component:
   - component: {fileID: 628510334}
   - component: {fileID: 628510335}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &628510334
 Transform:
@@ -5835,13 +5835,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 1.28e-43, z: 2.96e-42, w: 6e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -5985,12 +5985,12 @@ GameObject:
   m_Component:
   - component: {fileID: 659753569}
   - component: {fileID: 659753570}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &659753569
 Transform:
@@ -6057,13 +6057,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: NaN, y: 1e-45, z: 7e-44, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -6108,7 +6108,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74726
+  m_Name: pb_Mesh22284
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6277,7 +6277,7 @@ GameObject:
   - component: {fileID: 691421462}
   - component: {fileID: 691421464}
   - component: {fileID: 691421463}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: LightBulbs7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6484,7 +6484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 753770665}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Lightning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6861,7 +6861,7 @@ GameObject:
   - component: {fileID: 837090484}
   - component: {fileID: 837090486}
   - component: {fileID: 837090485}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: LightBulbs3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9475,7 +9475,7 @@ GameObject:
   - component: {fileID: 1003642358}
   - component: {fileID: 1003642360}
   - component: {fileID: 1003642359}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: LightBulbs6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12825,12 +12825,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1188937169}
   - component: {fileID: 1188937170}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: SpotLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1188937169
 Transform:
@@ -12897,7 +12897,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -12914,7 +12914,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75100
+  m_Name: pb_Mesh22658
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13745,12 +13745,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1283492434}
   - component: {fileID: 1283492435}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1283492434
 Transform:
@@ -13817,13 +13817,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 2.154e-42, y: NaN, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -13925,7 +13925,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!64 &1290287386
 MeshCollider:
@@ -14842,12 +14842,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1438542292}
   - component: {fileID: 1438542293}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1438542292
 Transform:
@@ -14914,13 +14914,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: NaN, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -15296,12 +15296,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1477458116}
   - component: {fileID: 1477458117}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1477458116
 Transform:
@@ -15368,7 +15368,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -15737,7 +15737,7 @@ GameObject:
   - component: {fileID: 1524410758}
   - component: {fileID: 1524410760}
   - component: {fileID: 1524410759}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: LightBulbs4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16174,7 +16174,7 @@ GameObject:
   - component: {fileID: 1576805245}
   - component: {fileID: 1576805247}
   - component: {fileID: 1576805246}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: LightBulbs9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16331,7 +16331,7 @@ GameObject:
   - component: {fileID: 1614631419}
   - component: {fileID: 1614631421}
   - component: {fileID: 1614631420}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: LightBulbs2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17102,7 +17102,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74884
+  m_Name: pb_Mesh22442
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17344,7 +17344,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74756
+  m_Name: pb_Mesh22314
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17601,7 +17601,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74802
+  m_Name: pb_Mesh22360
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18209,12 +18209,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1793828423}
   - component: {fileID: 1793828424}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: PointLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1793828423
 Transform:
@@ -18281,13 +18281,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.5904e-41, y: NaN, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -18303,7 +18303,7 @@ GameObject:
   - component: {fileID: 1807715795}
   - component: {fileID: 1807715797}
   - component: {fileID: 1807715796}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: LightBulbs1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18684,7 +18684,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh75138
+  m_Name: pb_Mesh22696
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18848,7 +18848,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74790
+  m_Name: pb_Mesh22348
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20007,6 +20007,14 @@ PrefabInstance:
     - target: {fileID: 974238577738091436, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
       propertyPath: healthBar
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583773427612777543, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
+      propertyPath: m_Height
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583773427612777543, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
+      propertyPath: m_Radius
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1583773427612777549, guid: f974fef3867541546b7602d1ab9bbb1b, type: 3}
       propertyPath: m_Name
