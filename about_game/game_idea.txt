@@ -33,8 +33,7 @@ COINS
 
 PAŠĀ SPĒLĒ
 * Izteiksmīgāk attēlo savākto coin skaitu
-* Kad dead vai uzvar, tad parādās informatīvs teksts un nospiežot again var spēlēt atkārtoti
-* Point ligth gaismas katrā istabā 
+* Point ligth gaismas katrā istabā (Kolizijas)
 * varbūt kādas mēbeles???
 * varbūt coinus randomize likt, piemērām, lists ar 9 pozīcijām un randomā likt coinus piecās no tām.  ???
  
