@@ -41,6 +41,7 @@ public class Coin : MonoBehaviour
        // if (other.name == GameObject.FindObjectOfType<Hero>()){ //japartaisa, lai nemekle pec string!!! unity basics lekcijā
            if (GameObject.FindObjectOfType<Coin>()){
             other.GetComponent<Hero>().points++;
+            ScoreManager.instance.AddPoint();
            // Destroy(_PulseSound);
            // CollectSound();
            //AudioSource.PlayClipAtPoint(coin, transform.position, 0.5f);
@@ -55,6 +56,7 @@ public class Coin : MonoBehaviour
             RemoveCoin(); 
 
             if (other.GetComponent<Hero>().points == 5 ){
+                TimeController.instance.EndTimer();
                 Debug.Log("You win!!!!!");
                 Scenes.LoadScene(Scenes.YouWin);
             }

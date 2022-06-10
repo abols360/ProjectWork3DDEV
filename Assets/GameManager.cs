@@ -40,6 +40,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    
+
     void Awake()
     {
         if (instance == null)
@@ -55,6 +57,7 @@ public class GameManager : MonoBehaviour
     {
         Hero.OnDied += OnHeroDied;
         GameCursor.EnableCur(false);
+        TimeController.instance.BeginTime();
     }
 
     private void Update() {
