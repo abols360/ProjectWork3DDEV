@@ -21,7 +21,7 @@ public class TimeController : MonoBehaviour
     {
         timeCounter.text = "Time: 00:00.00";
         timerGoing = false;
-        bestTime.text = PlayerPrefs.GetString("bestTime", "05:00:01").ToString();
+        bestTime.text = PlayerPrefs.GetString("bestTime", "05:00.01").ToString();
 
         
     }
@@ -32,15 +32,28 @@ public class TimeController : MonoBehaviour
     }
     public void EndTimer(){
         timerGoing = false;
-        Debug.Log(timeCounter.text + "ASDAS");
-        //Debug.Log(float.Parse(timeCounter.text));
-        //float newTime= float.Parse(timeCounter.text);
-        //float OldTime= float.Parse(bestTime.text);
+        //Debug.Log(timeCounter.text + "ASDAS");
+        String[] splitNewTime = timeCounter.text.Split(char.Parse("."));
+        
+        String NewT = splitNewTime[0].Replace(":", ".");
+        String[] splitOldTime = bestTime.text.Split(char.Parse("."));
+        String OldT = splitOldTime[0].Replace(":", ".");
+        float OldTime= float.Parse(OldT);
+        float newTime= float.Parse(NewT);
+       // Debug.Log(OldTime+" old1");
+       // Debug.Log(newTime+" new1");
 
 
-       // if(newTime < OldTime){ //jāizdomā, kā parveidot divus stringus uz float un salidzīnāt. moš splitot???
+        if(newTime < OldTime){ 
             PlayerPrefs.SetString("bestTime", timeCounter.text);
-       // }
+        }else if (newTime == OldTime){
+            if (float.Parse(splitNewTime[1]) < float.Parse(splitOldTime[1]))
+            {
+                 PlayerPrefs.SetString("bestTime", timeCounter.text);
+            }
+
+           // Debug.Log("Vēl jātrenējas");
+        }
         
 
     }

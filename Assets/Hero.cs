@@ -68,20 +68,20 @@ public int points = 0;
         HealthBar.value = HealthValue;
     }
 
-    private void OnGUI() {
-        // GUI.Label(new Rect (10, 10, 100, 20), "Score: " + points);
-        // GUI.Label(new Rect (50, 0, 100, 50), "health: " + health);
+    // private void OnGUI() {
+    //     // GUI.Label(new Rect (10, 10, 100, 20), "Score: " + points);
+    //     // GUI.Label(new Rect (50, 0, 100, 50), "health: " + health);
 
-        GUILayout.BeginVertical();
+    //     GUILayout.BeginVertical();
 
-        GUILayout.Label( "Score: " + points);
+    //     GUILayout.Label( "Score: " + points);
         
-        GUILayout.Label(  "health: " + health);
+    //     GUILayout.Label(  "health: " + health);
 
-        GUILayout.EndVertical();
+    //     GUILayout.EndVertical();
 
 
 
-       // GUI.Label(new Rect (50, 0, 100, 50), "health: " + health);
-    }
+    //    // GUI.Label(new Rect (50, 0, 100, 50), "health: " + health);
+    // }
 }
