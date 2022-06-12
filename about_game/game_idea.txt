@@ -11,8 +11,6 @@ Fonā dzirdami trokšņi kaut kādi.
 
 
 BUGS!!!
-
-*Gaismas izdomā izslēgties konkrētās kameras pozīcijās!!!! OBLIGTI JĀSATAISA!!!!!!!
 *Spider walk animacija reizēm iegļuko un kad grib apstāties tad aizslīd pāris metrus uz priekšu
 * spider walking sound have bugs
 
@@ -23,7 +21,6 @@ TO_DO_LIST
 Unity tasks:
 ZIRNEKLIS
 
-*zirnekļi ir tajās istabās, kurās ir monētas???
 
 
 PLAYER
@@ -33,8 +30,7 @@ COINS
 
 
 PAŠĀ SPĒLĒ
-* Izteiksmīgāk attēlo savākto coin skaitu
-* Point ligth gaismas katrā istabā (Kolizijas)??????????
+
 * varbūt kādas mēbeles???
 * varbūt coinus randomize likt, piemērām, lists ar 9 pozīcijām un randomā likt coinus piecās no tām.  ???
  
